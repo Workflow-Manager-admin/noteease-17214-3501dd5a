@@ -37,6 +37,7 @@ export default [
     languageOptions: {
       globals: {
         document: "readonly",
+        console: "readonly", // Allow console globally
       },
     },
   },
